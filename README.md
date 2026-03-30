@@ -1,2 +1,2 @@
 # LucBusiness
-Page web pour offre de tarification
+Page web pour tarification
