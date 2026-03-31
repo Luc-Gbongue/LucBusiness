@@ -10,3 +10,12 @@ body{
 header .logo {
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: orange;
+}
