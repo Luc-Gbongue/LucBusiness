@@ -67,7 +67,66 @@ header ul li a:hover {
     border-radius: 50px;
 }
 
+main {
+    background-color: whitesmoke;
+}
 
+main #herosection {
+    display: flex;
+    
+}
+
+.herocards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.herocards .herobox .evaluation {
+    background-color: white;
+    border: #111, 1px, solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#pricing .abonnement {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+#pricing .abonnement .btn-toggle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    width: 200px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.btn-toggle button {
+    background-color: gray;
+    border: none;
+    font-weight: bold;
+    width: 200px;
+    height: 20px;
+}
+
+.btn-toggle .active {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#pricing .pricingcards {
+    display: flex;
+}
 
 footer {
     display: flex;
