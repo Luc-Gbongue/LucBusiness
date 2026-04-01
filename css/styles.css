@@ -168,8 +168,21 @@ main #herosection {
     color: #fff;
 }
 
+#review {
+    background-color: rgb(207, 207, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2Opx;
+}
 
+.review-right {
+    padding: 20px;
+}
 
+.item {
+    padding: 20px;
+}
 footer {
     display: flex;
     justify-content: center;
