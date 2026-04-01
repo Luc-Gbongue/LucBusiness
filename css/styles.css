@@ -67,30 +67,29 @@ header ul li a:hover {
     border-radius: 50px;
 }
 
-main {
-    
-}
-
 main #herosection {
-    display: flex;
     background-color: whitesmoke;
     
 }
 
 .herocards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 30px;
 }
 
+.herobox{
+    padding: 0 10px;
+}
 .herocards .herobox .evaluation {
     background-color: white;
     border: #111, 1px, solid;
     border-radius: 20px;
-    margin: 20px;
-    padding: 10px 20px;
-    text-align: center;
+    padding: 10px;
+    width: 200px;
     font-size: 14px;
 }
 
@@ -132,6 +131,7 @@ main #herosection {
 #pricing .pricingcards {
     display: flex;
     justify-content: center;
+    align-items: center;
 
 
 }
@@ -144,6 +144,10 @@ main #herosection {
     border-radius: 20px;
     width: 300px;
     height: 400PX;
+}
+
+.pricingbox h3,p,button,ul li {
+    margin-bottom: 10px;
 }
 
 .pricingbox:hover {
