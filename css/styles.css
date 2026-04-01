@@ -68,11 +68,12 @@ header ul li a:hover {
 }
 
 main {
-    background-color: whitesmoke;
+    
 }
 
 main #herosection {
     display: flex;
+    background-color: whitesmoke;
     
 }
 
@@ -114,19 +115,60 @@ main #herosection {
 .btn-toggle button {
     background-color: gray;
     border: none;
+    border-radius: 10px;
     font-weight: bold;
     width: 200px;
     height: 20px;
 }
 
-.btn-toggle .active {
-    background-color: white;
+.btn-toggle button:hover{
+ background-color: white;
+}
+
+.btn-toggle .active {  
     border-radius: 10px;
     
 }
 #pricing .pricingcards {
     display: flex;
+    justify-content: center;
+
+
 }
+
+.pricingbox {
+
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400PX;
+}
+
+.pricingbox:hover {
+    background-color: rgb(219, 219, 7);
+}
+
+.pricingbox button {
+    background-color: #fff;
+    border: #111, 1px, solid;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pricingbox button:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+
 
 footer {
     display: flex;
