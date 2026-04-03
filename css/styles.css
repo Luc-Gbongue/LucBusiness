@@ -4,68 +4,74 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 header {
+    background-color: #fff;
+}
+
+.header-containers {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+   
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 header .logo {
     font-weight: bold;
 }
+.header-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
-.navbarleft ul{
+.header-links ul li {
+    list-style: none;
+}
+
+header .price {
+    background-color: rgb(204, 202, 202);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+.header-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-
-.navbarleft ul li {
-    list-style: none;
+.header-buttons a {
+  text-decoration: none;
+  color: #111;
 }
-
-.navbarleft ul li a {
-    text-decoration: none;
+ header .talk-btn {
+    background-color: rgb(218, 218, 5);
+    padding: 10px;
+    border-radius: 20px;
+ }
+header a:hover {
     color: #111;
-}
-
-header ul li a:hover {
-    color: black;
     font-weight: bold;
 }
 
-.navbarleft .price {
-    background-color: rgb(207, 200, 200);
-    padding: 10px;
-    border-radius: 30px;
-}
 
-.navbarright ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.navbarright ul li {
-    list-style: none;
-}
-
-.navbarright ul li a{
-    text-decoration: none;
-    color: #111;
-}
-
-.navbarright .talk-btn {
-    background-color: rgb(218, 218, 5);
-    padding: 10px;
-    border-radius: 50px;
-}
 
 main #herosection {
     background-color: whitesmoke;
