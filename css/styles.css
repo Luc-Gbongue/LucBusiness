@@ -168,9 +168,18 @@ main #herosection {
     height: 400PX;   
 }
 
+.pricingbox-active button {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid #111;
+    background-color:#111;
+    color: white;
+}
+
 .pricingbox-active button:hover {
 background-color: #111;
-color: #fff;
+color: white;
 }
 
 .pricingbox h3,p,button,ul li {
@@ -243,8 +252,4 @@ color: #fff;
 
 .item {
     padding: 20px;
-}
-
-.item p {
-    
 }
