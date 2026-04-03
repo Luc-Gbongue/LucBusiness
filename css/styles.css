@@ -147,12 +147,9 @@ main #herosection {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .pricingbox {
-
     background-color: whitesmoke;
     margin: 20px;
     padding: 20px;
@@ -161,8 +158,26 @@ main #herosection {
     height: 400PX;
 }
 
+.pricingbox-active {
+    background-color: rgb(218, 218, 5);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400PX;   
+}
+
+.pricingbox-active button:hover {
+background-color: #111;
+}
+
 .pricingbox h3,p,button,ul li {
     margin-bottom: 10px;
+}
+
+
+.niveau {
+    margin-bottom: 30px;
 }
 
 .pricingbox:hover {
