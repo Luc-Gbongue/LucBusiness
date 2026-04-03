@@ -3,39 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CartoZoh - Offre tarifaire</title>
+    <title>CartoZoh - Services de Cartographie</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <!-- ENTÊTE DE LA PAGE -->
     <header>
-        <div class="logo">Flinta</div>
+    <!-- Conteneur du header -->
+        <div class="header-containers">
+        <!-- Conteneur menu + logo -->
+            <div class="navbar-left">
+                <p class="logo">CartoZoh</p>
 
-        <nav class="navbarleft">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#" class="price">Tarification</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-        <nav class="navbarright">
-            <ul>
-                <li><a href="#" class="login">Connexion</a></li>
-                <li><a href="#" class="talk-btn">Contactez-nous</a></li>
-            </ul>
-        </nav>
+                <nav class="header-links">
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#" class="price">Tarifs</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- Conteneur header-buttons -->
+            <div class="header-buttons">
+                <a href="#" class="login">Connexion</a>
+                <a href="#" class="talk-btn">Contactez-nous</a>
+            </div>
+        </div>   
 
     </header>
 
 <!-- MENU PRINCIPAL -->
     <main>
+        <!-- HERO SECTION -->
         <section id="herosection">
             <div class="herocards">
                 <div class="herobox">
-                    <p>Services client Flinta</p>
+                    <p class="customer">Service client CartoZoh</p>
                     <h1>Choisissez l'offre qui vous convient</h1>
-                    <p>Des plans tarifaires adaptés à tous les stades de croissance de votre entreprise. Flinta repond a la solution à vos besoins</p>
+                    <p class="customer">CartoZoh vous propose des solutions de cartographie adaptées à vos besoins professionnels ou personnels.</p>
                     <div class="evaluation">
                         <p>Note: 4,97/5. Plus de 600 avis</p>
                     </div>
@@ -46,85 +52,96 @@
             </div>
 
         </section>
+
+        <!-- PRICING SECTION -->
         <section id="pricing">
-            <div class="abonnement">
-                <div class="btn-toggle">
-                    <button class="active">Mensuel</button>
-                    <button>Annuel</button>
-                </div>
+            <div class="btn-toggle">
+                <button class="active">Mensuel</button>
+                <button>Annuel</button>
             </div>
+
             <div class="pricingcards">
                 <div class="pricingbox">
-                    <h3>Gratuit</h3>
-                    <p>Flinta pour tous</p>
-                    <p>$0</p>
+                    <div class="niveau">
+                        <h3>Gratuit</h3>
+                        <p>Cartographie pour tous</p>
+                    </div>
+                    <p>$0 <span>Mois</span></p>
                     <button>Commencer</button>
                     <ul>
-                        <li>Fonction de support limitée</li>
+                        <li>Carte de base</li>
+                        <li>Pas de suivi</li>
+                        <li>Affichage simple</li>
+                    </ul>
+                </div>
+                <div class="pricingbox-active">
+                    <div class="niveau">
+                        <h3>Débutant</h3>
+                        <p>Pour prestataires individuels</p>
+                    </div>
+                    <p>$14 <span>Mois</span></p>
+                    <button>Commencer</button>
+                    <ul>
+                        <li>Cate thématique</li>
                         <li>Système de suivi</li>
-                        <li>Analyses limitées</li>
+                        <li>Analyses géospatiale</li>
                     </ul>
                 </div>
                 <div class="pricingbox">
-                    <h3>Débutant</h3>
-                    <p>Pour prestataires individuels</p>
-                    <p>$14</p>
+                    <div class="niveau">
+                        <h3>Moyen</h3>
+                        <p>Pour structure indépendante</p>
+                    </div>
+                    <p>$25 <span>Mois</span></p>
                     <button>Commencer</button>
                     <ul>
-                        <li>Fonction de support limitée</li>
+                        <li>Carte personnalisée</li>
                         <li>Système de suivi</li>
-                        <li>Analyses de base</li>
+                        <li>Analyses géospatiale avancées</li>
+                        <li>Carte interactive</li>
+                        <li>Assistance minimum</li>
                     </ul>
                 </div>
                 <div class="pricingbox">
-                    <h3>Moyen</h3>
-                    <p>Pour petites et moyennes entreprises</p>
-                    <p>$25</p>
+                    <div class="niveau">
+                        <h3>entreprises</h3>
+                        <p>Pour expert ou grandes entreprises</p>
+                    </div>
+                        <p>$50 <span>Mois</span></p>
                     <button>Commencer</button>
                     <ul>
-                        <li>support avancée</li>
-                        <li>Système de suivi</li>
-                        <li>Analyses avancées</li>
-                        <li>Service client limité</li>
-                        <li>Assistance limité</li>
-                    </ul>
-                </div>
-                <div class="pricingbox">
-                    <h3>Entreprise</h3>
-                    <p>Pour grandes entreprises</p>
-                    <p>$50</p>
-                    <button>Commencer</button>
-                    <ul>
-                        <li>support avancé</li>
+                        <li>Carte d'analyse personnalisée</li>
                         <li>Système de suivi avancé</li>
-                        <li>Analyses d'entreprise</li>
-                        <li>Service client prioritaire</li>
+                        <li>Analyses complète et rapport</li>
+                        <li>Carte interactive avancées</li>
                         <li>Assistance prioritaire</li>
                     </ul>
                 </div>
             </div>
 
         </section>
+
+        <!-- SECTION REVIEWS -->
         <section id="review">
             <div class="review-left">
                 <div class="avis">
-                    <p>Avis Flinta</p>
+                    <p>Avis clients CartoZoh</p>
                 </div>
-                <h2>Une exoertise au service du client</h2>
+                <h2>Une expertise au service du client</h2>
                 <P>Une expertise pour repondre aux besoins du client</P>
             </div>
             <div class="review-right">
                 <div class="item">
-                    <h4>Ameliore la satisfaction client</h4>
-                    <p>Augmentez la satisfaction des clients en étant présent lorsu'ils ont besoin de vous </p>
+                    <h4>Visualisation simple</h4>
+                    <p>Comprenez rapidement vos données gràce à nos cartes interactives </p>
                 </div>
                  <div class="item">
-                    <h4>Ameliore la satisfaction client</h4>
-                    <p>Augmentez la satisfaction des clients en étant présent lorsu'ils ont besoin de vous </p>
+                    <h4>Analyse géospatiale</h4>
+                    <p>Obtenez des reponses prcise pour vos projets personnels ou professionnels </p>
                 </div>
                  <div class="item">
-                    <h4>Ameliore la satisfaction client</h4>
-                    <p>Augmentez la satisfaction des clients en étant présent lorsu'ils ont besoin de vous </p>
+                    <h4>Support expert</h4>
+                    <p>Notre équipe vous accompagne du début à la fin de vos projets</p>
                 </div>
             </div>
         </section>
@@ -132,7 +149,7 @@
 
 <!-- PIED DE PAGE -->
     <footer>
-        <p>&copy; 2026 Flinta - Tous droits réserrvés.</p>
+        <p>&copy; 2026 CartoZoh - Tous droits réserrvés.</p>
     </footer>
 </body>
 </html>

@@ -4,68 +4,74 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 header {
+    background-color: #fff;
+}
+
+.header-containers {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+   
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 header .logo {
     font-weight: bold;
 }
+.header-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
-.navbarleft ul{
+.header-links ul li {
+    list-style: none;
+}
+
+header .price {
+    background-color: rgb(204, 202, 202);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+.header-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-
-.navbarleft ul li {
-    list-style: none;
+.header-buttons a {
+  text-decoration: none;
+  color: #111;
 }
-
-.navbarleft ul li a {
-    text-decoration: none;
+ header .talk-btn {
+    background-color: rgb(218, 218, 5);
+    padding: 10px;
+    border-radius: 20px;
+ }
+header a:hover {
     color: #111;
-}
-
-header ul li a:hover {
-    color: black;
     font-weight: bold;
 }
 
-.navbarleft .price {
-    background-color: rgb(207, 200, 200);
-    padding: 10px;
-    border-radius: 30px;
-}
 
-.navbarright ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.navbarright ul li {
-    list-style: none;
-}
-
-.navbarright ul li a{
-    text-decoration: none;
-    color: #111;
-}
-
-.navbarright .talk-btn {
-    background-color: rgb(218, 218, 5);
-    padding: 10px;
-    border-radius: 50px;
-}
 
 main #herosection {
     background-color: whitesmoke;
@@ -78,35 +84,40 @@ main #herosection {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    gap: 30px;
+    gap: 50px;
 }
 
 .herobox{
-    padding: 0 10px;
+    padding: 0;
 }
+.herobox .customer {
+    color: gray;
+}
+
+
 .herocards .herobox .evaluation {
     background-color: white;
     border: #111, 1px, solid;
     border-radius: 20px;
     padding: 10px;
+    margin: 50px;
     width: 200px;
     font-size: 14px;
+    text-align: center;
 }
 
-#pricing .abonnement {
+#princing {
+    background-color: #fff;
+    margin: 20px;
+}
+.btn-toggle {
     display: flex;
     justify-content: center;
-    margin: 50px;
-    
-}
-#pricing .abonnement .btn-toggle {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: gray;
     width: 200px;
     border-radius: 30px;
-    margin: 10px;
+    margin: 50px 500px;
     padding: 10px;
 
 }
@@ -115,29 +126,31 @@ main #herosection {
     background-color: gray;
     border: none;
     border-radius: 10px;
+    padding: 10px;
     font-weight: bold;
     width: 200px;
-    height: 20px;
+    height: 10px;
+    text-align: center;
+}
+
+.btn-toggle .active {
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .btn-toggle button:hover{
  background-color: white;
 }
 
-.btn-toggle .active {  
-    border-radius: 10px;
-    
-}
+
 #pricing .pricingcards {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    margin: 40px;
 }
 
 .pricingbox {
-
     background-color: whitesmoke;
     margin: 20px;
     padding: 20px;
@@ -146,8 +159,27 @@ main #herosection {
     height: 400PX;
 }
 
+.pricingbox-active {
+    background-color: rgb(218, 218, 5);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400PX;   
+}
+
+.pricingbox-active button:hover {
+background-color: #111;
+color: #fff;
+}
+
 .pricingbox h3,p,button,ul li {
     margin-bottom: 10px;
+}
+
+
+.niveau {
+    margin-bottom: 30px;
 }
 
 .pricingbox:hover {
@@ -177,21 +209,42 @@ main #herosection {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2Opx;
+    padding: 3Opx;
+}
+
+.review-left {
+    padding: 50px;
+    color: #111;
+}
+
+.review-left h2 {
+    margin-bottom: 10px;
+}
+.review-left p {
+    color: rgb(75, 72, 72);
+}
+
+.avis {
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .review-right {
-    padding: 20px;
-}
+    padding: 40px;
+ }
 
 .item {
     padding: 20px;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: black;
-    color: orange;
+
+.item p {
+    
 }
