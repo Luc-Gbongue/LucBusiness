@@ -282,3 +282,23 @@ color: white;
     font-weight: 10px;
     color: rgb(0, 0, 0 , 0,2);
 }
+
+@media (max-width: 900px) {
+    .header-containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-left{
+        flex-direction: column;
+    }
+
+    .header-links ul {
+        flex-direction: column;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
