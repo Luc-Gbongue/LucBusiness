@@ -110,6 +110,7 @@ main #herosection {
     text-align: center;
     align-items: center;
     margin: 40px 0;
+    transition: 2s;  
 }
 
 .herocards .herobox .evaluation p {
@@ -117,6 +118,12 @@ main #herosection {
     justify-content: center;
     align-items: center;
     margin: 3px 5px;
+   
+}
+
+.herocards .herobox .evaluation:hover {
+    background-color: yellow;
+    transform: ;
 }
 
 #princing {
@@ -133,24 +140,26 @@ main #herosection {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
+    border-radius: 30px;
 
 }
 
 .btn-toggle button {
-     background-color: #b4b4b4;
+    background-color: #b4b4b4;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
+    margin: 10px;
     font-weight: bold;
     width: 200px;
-    height: 20px;
+    height: 30px;
     text-align: center;
 }
 
+
 .btn-toggle .active {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .btn-toggle button:hover{
@@ -208,6 +217,7 @@ color: white;
 
 .pricingbox:hover {
     background-color: rgb(219, 219, 7);
+    transition: 2s;
 }
 
 .pricingbox button {
@@ -299,6 +309,6 @@ color: white;
 
     .header-buttons {
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
