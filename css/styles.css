@@ -40,15 +40,24 @@ header .logo {
     list-style: none;
 }
 
-header .price {
+/* header .price {
     background-color: rgb(204, 202, 202);
     padding: 10px;
     border-radius: 20px;
-}
+} */
 
 .header-links ul li a {
     text-decoration: none;
     color: #111;
+    transition: 1.5s;
+}
+
+.header-links ul li a:hover {
+    background-color: gold;
+    transform: scale(1.1);
+    border-radius: 30px;
+    padding: 8px;
+   
 }
 
 .header-buttons {
@@ -66,10 +75,10 @@ header .price {
     padding: 10px;
     border-radius: 20px;
  }
-header a:hover {
+/* header a:hover {
     color: #111;
     font-weight: bold;
-}
+} */
 
 
 
@@ -95,7 +104,14 @@ main #herosection {
 }
 .herobox .customer {
     color: gray;
-    
+    transition: 0.5s; 
+}
+
+.herobox .customer:hover {
+    color: crimson;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    background-color: chartreuse;
 }
 
 
